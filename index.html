@@ -9,25 +9,63 @@
 </head>
 <body>
 	<header>
-		
+		<nav class="navbar" role="navigation">
+			
+		</nav>
 	</header>
-	<div class="main">
-		
+	<div class="container">
+		<div class="row">
+			<div id="area" class="container">
+				<h2 id="areaName">
+					Area Name
+				</h2>
+				<p>area location</p>
+				<p>Co-Ordinator Name, Contact info</p>
+
+			</div>
+			<div id="map" class="container">
+				<p>map image</p>
+			</div>
+		</div>
+		<div class="row">
+			<div id="info" class="container">
+				<ul class="nav nav-tabs nav-justified" role="tablist">
+					<li role="presentation" class="active"><a href="#equip" aria-control="equip" role="tab" data-togle="tab">Equipment</a></li>
+					<li role="presentation"><a href="#signs" aria-control="signs" role="tab" data-togle="tab">Signs</a></li>
+					<li role="presentation"><a href="#tents" aria-control="tents" role="tab" data-togle="tab">Tents</a></li>
+					<li role="presentation"><a href="#elec" aria-control="elec" role="tab" data-togle="tab">Electrical</a></li>
+					<li role="presentation"><a href="#misc" aria-control="misc" role="tab" data-togle="tab">Misc</a></li>
+				</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="equip">
+						<h2>Equipment</h2>
+						<well>2 chairs</well>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="signs">
+						<h2>Signs</h2>
+						<well>welcome sign</well>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="tents">
+						<h2>Tents</h2>
+						<well>big tent</well>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="elec">
+						<h2>Electrical</h2>
+						<well>extension cord</well>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="misc">
+						<h2>Misc</h2>
+						<well></well>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 	</div>
-	<footer>
+	<footer class="container">
 		
 	</footer>
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous">
-	  	
-	</script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
- 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
- 		crossorigin="anonymous">
- 			
- 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 </body>
 </html>
