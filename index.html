@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>IF Equipment</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
@@ -15,15 +15,16 @@
 	</header>
 	<div class="container">
 		<div class="row">
-			<div id="area" class="container">
+			<div id="area" class="container col-md-6">
 				<h2 id="areaName">
 					Area Name
 				</h2>
 				<p>area location</p>
 				<p>Co-Ordinator Name, Contact info</p>
+				<p>days open</p>
 
 			</div>
-			<div id="map" class="container">
+			<div id="map" class="container col-md-6">
 				<p>map image</p>
 			</div>
 		</div>
@@ -39,23 +40,67 @@
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="equip">
 						<h2>Equipment</h2>
-						<well>2 chairs</well>
+						<p>Set-up: <input type="checkbox"> Done: <input type="checkbox"></p>
+						<div class="container">
+							<h3>Tables</h3>
+							<div class="well">
+								<table>
+									<tr>
+										<th>Size</th>
+										<th>Quantity</th>
+										<th>Delivered</th>
+										<th>Skirted</th>
+									</tr>
+									<tr>
+										<td>8'</td>
+										<td>10</td>
+										<td><input type="checkbox"></td>
+										<td><input type="checkbox"></td>
+										
+									</tr>
+									<tr>
+										<td>6'</td>
+										<td>0</td>
+										<td><input type="checkbox"></td>
+										<td><input type="checkbox"></td>
+									</tr>
+									<tr>
+										<td>4'</td>
+										<td>3</td>
+										<td><input type="checkbox"></td>
+										<td><input type="checkbox"></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="container">
+							<h3>Chairs</h3>
+							<div class="well">
+
+							</div>
+						</div>
+						<div class="container">
+							<h3>Other</h3>
+							<div class="well">
+
+							</div>
+						</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="signs">
 						<h2>Signs</h2>
-						<well>welcome sign</well>
+
 					</div>
 					<div role="tabpanel" class="tab-pane" id="tents">
 						<h2>Tents</h2>
-						<well>big tent</well>
+						<div class="well">big tent</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="elec">
 						<h2>Electrical</h2>
-						<well>extension cord</well>
+						<<div class="well">extension cord</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="misc">
 						<h2>Misc</h2>
-						<well></well>
+						<div class="well"></div>
 					</div>
 				</div>
 			</div>
@@ -65,7 +110,7 @@
 	<footer class="container">
 		
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
 </body>
 </html>
