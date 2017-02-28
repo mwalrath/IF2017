@@ -5,3 +5,7 @@ table {
 th {
 	padding: 5px 10px;
 }
+
+#map object {
+	width: 100%
+}
